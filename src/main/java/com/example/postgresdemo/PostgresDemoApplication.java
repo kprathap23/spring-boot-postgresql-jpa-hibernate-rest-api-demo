@@ -10,7 +10,7 @@ public class PostgresDemoApplication {
 	
 	
 	@RequestMapping("/")
-	public void home() {
+	public String home() {
 		
 		return "Home Page";
 	}
